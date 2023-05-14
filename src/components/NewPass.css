@@ -1,0 +1,74 @@
+body {
+  overflow: hidden;
+}
+
+.main-container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.login-container1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.image-container1 {
+  width: 50%;
+}
+.image-container1 img {
+  max-width: 100%;
+}
+.login-inputs1 {
+  width: 432px;
+  text-align: center;
+  padding-top: 50px;
+}
+.login-inputs1 h1 {
+  font-size: 42px;
+  padding-right: 10px;
+}
+.inputs1 {
+  text-align: left;
+}
+.inputs1 input {
+  width: 414px;
+  height: 34px;
+  margin-top: 4px;
+  margin-bottom: 25px;
+  padding-left: 8px;
+  border-color: #bababa;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.app-login label {
+  font-size: 14px;
+  color: #333;
+}
+.remember-me label {
+  padding-top: 5px;
+}
+.forgotten {
+  text-transform: uppercase;
+  color: #333333;
+}
+.button {
+  width: 424px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ffc436;
+  border: none;
+  border-radius: 4px;
+  color: #333;
+}
+
+.icon2 img {
+  transform: translateY(280%);
+  padding-left: 386px;
+  width: 17.5px;
+}
+.input-with-icon {
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+  padding-left: 20px;
+}

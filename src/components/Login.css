@@ -1,0 +1,88 @@
+body {
+  overflow: hidden;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.login-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.image-container {
+  width: 50%;
+}
+.image-container img {
+  max-width: 100%;
+}
+.login-inputs {
+  width: 422px;
+  text-align: center;
+  padding-top: 50px;
+}
+.login-inputs h1 {
+  font-size: 46px;
+}
+.inputs {
+  text-align: left;
+}
+.inputs input {
+  width: 414px;
+  height: 34px;
+  margin-top: 4px;
+  margin-bottom: 25px;
+  padding-left: 8px;
+  border-color: #bababa;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.app-login label {
+  font-size: 14px;
+  color: #333;
+}
+.remember-me label {
+  padding-top: 10px;
+}
+.forgotten .forgotten-link {
+  color: #333333;
+}
+.button {
+  width: 424px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ffc436;
+  border: none;
+  border-radius: 4px;
+  color: #333;
+}
+.icon img {
+  transform: translateY(280%);
+  padding-left: 295px;
+  width: 17.5px;
+}
+.icon2 img {
+  transform: translateY(280%);
+  padding-left: 334px;
+  width: 17.5px;
+}
+.footer {
+  height: 18px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.image-animation {
+  animation: slideDown 2s forwards;
+}
+
+@keyframes slideDown {
+  10% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

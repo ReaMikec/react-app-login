@@ -1,0 +1,47 @@
+.app-img img {
+  width: 100%;
+  height: 900px;
+}
+.remember-me {
+  width: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+#remember-me {
+  width: 16px;
+}
+.password {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 43px;
+}
+
+.forgotten {
+  padding-top: 12px;
+}
+
+.forgotten label {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.login-inputs h1 {
+  font-size: 46px;
+}
+.button {
+  width: 424px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ffc436;
+  border: none;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+}
+.footer1 {
+  height: 18px;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
